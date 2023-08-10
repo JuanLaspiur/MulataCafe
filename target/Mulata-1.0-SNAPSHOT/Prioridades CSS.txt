@@ -1,0 +1,58 @@
+Prioridades CSS
+ORDEN:
+Grid, Flex, float:
+Grid--->estructura general de la web.
+Flex--> interno
+Float-->mas dentro
+
+			grid
+		........................
+		. flex	..........			.
+		.	. float	 .	.
+		.	.	 .	.
+		.	.	 .	.
+		.	.	 .	.
+		.	..........	.
+		.			.
+		........................
+
+
+-COMENTAR EL CODIGO
+
+-METODOLOGIA BEEM EN HTML5
+Bloque---> lo mas simple posible
+Elemento--> bloque__especficacion
+modificador--> bloque-modificacion o elemeno-modificacion
+
+-NO USAR COLORES POR DEFECTO--> MEJOR #HEGADECIMAL Varia segun el navegador.
+
+-Opacity vs Display---> opacity transparente.. display = verdadero ocultamiento. Opacity puede afectar al posicionamiento de Google, porque lo interpreta como palabras clave para el posicionamiento y te castiga, bajando el posiinamiento.
+-Modularizar el import, más import css mejor. 
+https://www.youtube.com/watch?v=Hx5rcm7c4x8
+
+Breack Point 
+
+0 a 480px-->Celular
+
+480 a 960 --> Tablet
+
+960 a 1328 --> Computadoras
+
+
+------------------------------------------
+Break point mas completo
+
+|break|
+
+0 a 480px-->Celular
+	(de 0 a  |320| )--> Celular pequeño
+	(de |320| a 480) --> Celular
+
+480 a 960 --> Tablet
+	(480 a  |768| )-->Ipad
+
+960 a 1328 --> Computadoras
+	(960 a  |1024| )--->computadoras pequeñas
+
+
+

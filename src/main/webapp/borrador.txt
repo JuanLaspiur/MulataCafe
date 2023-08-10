@@ -1,0 +1,306 @@
+
+Quede en flex
+5 horas
+0 minutos
+
+https://www.youtube.com/watch?v=OWKXEJN67FE
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+LOCOS MAGNUS PRO: 
+
+<script src="https://kit.fontawesome.com/41bcea2ae3.js"  crossorigin="anonymous"  ></script>
+
+class="fas fa-home" ----->MENU
+class="far fa-file" ----->PORTAFOLIO
+class="fas fa-video" ----->CURSOS
+class="far fa-sticky-note" ----> BLOCK
+class="far fa-id-badge" ----->CONTACTO
+class="far fa-address-card" --->NOSOTROS  
+ 
+
+https://fontawesome.com/  (mas iconos)
+
+
+
+
+NORMALIZE(== todos nav):
+https://necolas.github.io/normalize.css/
+						-
+COLORES					-			
+---------------------------------------
+
+metal:
+#ADB5BD
+
+Gris oscuro, mas opaco:
+#676D73
+
+primary:
+#0D6EFD
+
+Danger(rojo)
+#DC3545
+
+Amarillo:
+#FFC107
+
+verde:
+#198754
+
+azul osuro 
+#084198
+
+azul oscuro-:
+#0B58CA
+
+azul:
+#0D6EFD
+
+azul-:
+#6EA7FE
+
+celeste:
+#9EC5FE
+
+-----------------------------------------------------------------
+
+RESPOSABLE------------------------------------------------------
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+boostrap-size:
+Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1200 píxeles.
+
+
+
+
+mediaquoris
+
+
+
+Breakpoint	Class infix	Dimensions
+X-Small				0–576px
+Small	sm				≥576px
+Medium				≥768px
+Large	lg				≥992px
+Extra large	xl			≥1200px
+Extra extra large	xxl		≥1400px
+
+/*responsible*/
+/*X-Small*/	@media	(max-width:576px){}
+
+
+/*Small*/@media 	(max-width:767px){}
+
+/*Medium*/@media 	(max-width:991px){}
+
+/*Large*/@media 	(max-width:1199px){}
+
+/*Extra-Large*/@media 	(max-width:1399px){}
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+FUENTES
+---------------------------------------------------------------------
+
+
+font-family:
+
+Poppins
+font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+Nunito Sans
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+font-family: 'Nunito Sans', sans-serif;
+
+Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+font-family: 'Quicksand', sans-serif;
+
+titulo---font-family
+Bebas Neue
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+font-family: 'Bebas Neue', cursive;
+
+Tinos
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+font-family: 'Tinos', serif;
+
+
+ROBOTO
+font-family: 'Roboto', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+___________________________________________________________________
+-------------------------------------------------------------------
+
+LINKS: BANCO DE IMAGENES:
+
+ (fondo trasparente)
+https://www.pngegg.com/
+
+(imagenes gratuitas)
+https://pixabay.com/
+
+Iconos 3d: 
+https://www.youtube.com/watch?v=hAZUrYg581U
+https://3dicons.co/
+
+https://free3dicon.com/ (mejor)
+
+https://iconscout.com/free-3ds (mejor*2)
+____________________________________________________________
+___________________________________________________________
+_____________________________________________________________
+
+0)Outline. Borde que no ocupa espacio real en el DOM. No afecta a las demás
+		cajas.
+
+1) Position: (afecta el flujo de los elemenos.. primero una caja despues la      			otra)
+
+ 	STATIC
+
+	RELATIVE (adquiere top, left, botton contando desde su lugar original 	          en el dom) CONSERVA EL ESPACIO RESERVADO EN DOM										
+
+	ABSOLUTE ""         contando desde ViwPort o desde su padre. No 	conserva espacio en el dom.
+						
+
+	FIXED  (igual que absolute pero queda fijado, se mueve todo en el VP 			pero esto permanece estatico en el mismo lugar)     
+     
+	STYCKY (se comporta como un fixed en el momento del top: declarado)
+
+- - - - - - - - - -  - -- - - -- - -- - - - -- -- - -- -
+
+2) Z-INDEX( SOLO CUANDO ESTA posicionado. un elemento abajo o arriba de otro)
+	
+	SOLO EN ELEMENTOS POSICIONADOS
+	CONFLICTOS DE PADRES E HIJOS
+- - - - - -- - -- - -- - -- - - -- - - -- - - -- - -- -- - - - -
+3)DISPLAY: (modifica el comportamiento de una caja)
+
+	BLOCK (ocupa todo witdh)   <p> <div>
+	INLINE (lo que el contenido) <a> 
+
+	INLINE-BLOCK (lo que el contenido, pero podes modificar dimensiones 		de la caja )
+
+	LISTE-ITEM
+
+      FLEX 
+	GRID
+
+------------------------------------------------------------------
+4)OVER-FLOW (Y,X) (==SCROLL !!!)
+<!><!>¿Que hacemos cuando el texto sobre sale la pantalla o con las cosas que salen?<¡><¡>
+
+AUTO <>Detecta y automaticamente pone scroll<>
+SCROLL <>Lo pone aunque no sea necesario<>
+HIDEN <!> oculta la imagen que sobra<¡>
+
+
+-----------------------------------------------------------------------
+
+5)FLOAT con contenedor"float:rigth" .. y a a los 2 div whith 50%
+
+<.contenedor> 
+  <div1> </div1>
+  <div2> </div2>
+
+</contenedor>
+
+
+
+<!>De esta forma se hacian las paginas antes, por bloques y en float TIENE PROBLEMAS DE ALTURA<¡>
+
+
+--------------------------------------------------------------------
+Seudo Clases (!= a seudoelementos)
+
+ <!>ESCUCHAS (programacion)<¡>
+
+-:hover:Cuando mousse pasa por mouse.
+
+-link: cambiar un link que todavia no visitamos.
+ej.
+a:link{color:blue;}
+-visited: cambia los visitados;
+
+-active:al apretar cambia, no cuando apoyamos el mause sino cuando hacemos clik. Si dejamos de hacer clikc vuelve al original.
+
+-focus: funciona con impus.Moduficar impus cuando esta seleccionado.
+
+
+
+
+-lang()---------->es una funcion por eso lleva parentecis.
+ej.<!>NO ES IMPORTANTE<¡>
+
+.caja :lang(lenguje, es){}
+
+
+
+--------------------------------------------------------
+IMAGENES
+
+--------------objet-fit:
+
+contrain:img se ajusta a las dimensiones de la caja.
+cover: img se ajusta al contenedor pero recorta los bordes. COVER
+
+none: usa propiedades por defecto
+scale-down: se queda con la mejor propiedad.
+
+objet-position: <!>Se posiciona dentro del conteiner la imagen.<¡>
+left:
+rigth:
+button:
+top:
+
+
+
+--------------------------------------------------------------
+
+FLEX-BOX (4 horas:44 minutos )
+https://www.youtube.com/watch?v=OWKXEJN67FE
+ <!>Forma de maquetar usando flex<¡>
+
+ <!>cambia la direccion del mein axis (eje x{mein} y eje y{cross})<¡>
+ <!>se mantiene la altura<¡>
+
+
+<conteiner> 
+<div1></div1>
+</conteiner>
+
+ <!>Se pone al contenedor, afecta a sus hijos<¡>
+
+CONTENEDOR:
+flex-direcction: cambia direccion mein axis "row"(defecto), "row-reverse"();
+
+
+
+
+______________________________________________________________________
+Opacity : cambiarle la opacidad a un elemento (del 0 al 1, uno opaco.. 0.3 claro).
+border-radius: ponerle borde circular a un elemento.
+text-shadown: sombra a un texto.
+box-shadown: sombra  una caja.
+transform: rotate(90): rotar un ejemento 90 grados.
+transition: modificacion del hover (en el elemento no en el hover)
+            ej. transitión multiples.
+		transition: background 1s, width 1s, heigth .2s;
+
+
+
+
+
